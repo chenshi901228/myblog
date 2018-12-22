@@ -1,4 +1,4 @@
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/myblog\/myblog\/public\/sass\/aside\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/myblog\/public\/sass\/aside\.scss}line{font-family:\000031}}
 aside {
   width: 200px;
   height: 100%;
@@ -10,19 +10,19 @@ aside {
   left: 0;
   top: 50px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/myblog\/myblog\/public\/sass\/aside\.scss}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/myblog\/public\/sass\/aside\.scss}line{font-family:\0000311}}
 aside img:first-child {
   width: 100px;
   margin-top: 50px;
   border-radius: 50%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/myblog\/myblog\/public\/sass\/aside\.scss}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/myblog\/public\/sass\/aside\.scss}line{font-family:\0000316}}
 aside p {
   margin: 40px 0;
   color: #fff;
   font-size: 16px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/myblog\/myblog\/public\/sass\/aside\.scss}line{font-family:\0000321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/myblog\/public\/sass\/aside\.scss}line{font-family:\0000321}}
 aside img:last-child {
   width: 150px;
 }
