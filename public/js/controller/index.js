@@ -1,10 +1,9 @@
-
 var mySwiper = new Swiper('.swiper-container', {
     autoplay: true,
-    speed:400,
+    speed: 400,
     loop: true, // 循环模式选项
     slidesPerView: 4,
-    spaceBetween : 20,
+    spaceBetween: 20,
     // 如果需要前进后退按钮
 })
 $('.swiper-div-prev').click(function () {
