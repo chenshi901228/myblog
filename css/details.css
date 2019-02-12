@@ -1,0 +1,185 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/myblog\/sass\/details\.scss}line{font-family:\000031}}
+article {
+  width: 100%;
+  min-width: 1400px;
+  padding: 50px 0 0 200px;
+  background-color: #EDEDED;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/myblog\/sass\/details\.scss}line{font-family:\000036}}
+article .header {
+  width: 100%;
+  height: 40px;
+  background-color: #fff;
+  border-bottom: 1px solid #E1E1E1;
+  display: flex;
+  align-items: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/myblog\/sass\/details\.scss}line{font-family:\0000313}}
+article .header img {
+  width: 20px;
+  margin: 0 10px 0 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/myblog\/sass\/details\.scss}line{font-family:\0000317}}
+article .header p {
+  color: #666;
+  font-size: 14px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/myblog\/sass\/details\.scss}line{font-family:\0000320}}
+article .header p a {
+  text-decoration: none;
+  color: #333;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/myblog\/sass\/details\.scss}line{font-family:\0000326}}
+article .main {
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/myblog\/sass\/details\.scss}line{font-family:\0000331}}
+article .main .articleDetails {
+  padding: 20px;
+  margin: 0;
+  width: 70%;
+  border: 1px solid #E1E1E1;
+  background-color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/myblog\/sass\/details\.scss}line{font-family:\0000337}}
+article .main .articleDetails h4 {
+  font-size: 20px;
+  color: #666;
+  margin-top: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/myblog\/sass\/details\.scss}line{font-family:\0000342}}
+article .main .articleDetails .tag {
+  display: flex;
+  align-items: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/myblog\/sass\/details\.scss}line{font-family:\0000345}}
+article .main .articleDetails .tag p, article .main .articleDetails .tag a {
+  font-size: 14px;
+  margin: 0 10px;
+  color: #999;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/myblog\/sass\/details\.scss}line{font-family:\0000350}}
+article .main .articleDetails .tag a {
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/myblog\/sass\/details\.scss}line{font-family:\0000352}}
+article .main .articleDetails .tag a:hover {
+  color: #09b1b9;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/myblog\/sass\/details\.scss}line{font-family:\0000356}}
+article .main .articleDetails .tag img {
+  width: 16px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/myblog\/sass\/details\.scss}line{font-family:\0000360}}
+article .main .articleDetails .intro {
+  background-color: #f7f7f7;
+  padding: 10px;
+  margin-top: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/myblog\/sass\/details\.scss}line{font-family:\0000364}}
+article .main .articleDetails .intro p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 22px;
+  color: #666;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/myblog\/sass\/details\.scss}line{font-family:\0000369}}
+article .main .articleDetails .intro p b {
+  color: #09b1b9;
+  margin-right: 6px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/myblog\/sass\/details\.scss}line{font-family:\0000376}}
+article .main .articleDetails .detail h6 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #666;
+  margin: 16px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/myblog\/sass\/details\.scss}line{font-family:\0000382}}
+article .main .articleDetails .detail p {
+  font-size: 14px;
+  color: #666;
+  line-height: 24px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/myblog\/sass\/details\.scss}line{font-family:\0000387}}
+article .main .articleDetails .detail img {
+  display: block;
+  width: auto;
+  height: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/myblog\/sass\/details\.scss}line{font-family:\0000394}}
+article .main .right {
+  width: 28%;
+  height: 500px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/myblog\/sass\/details\.scss}line{font-family:\0000398}}
+article .main .right .right-item {
+  margin-bottom: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/myblog\/sass\/details\.scss}line{font-family:\00003100}}
+article .main .right .right-item .right-top {
+  display: flex;
+  align-items: center;
+  background-color: #F8F8F8;
+  border: 1px solid #E1E1E1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/myblog\/sass\/details\.scss}line{font-family:\00003105}}
+article .main .right .right-item .right-top .right-top-img {
+  border-right: 1px solid #E1E1E1;
+  padding: 8px 10px;
+  font-size: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/myblog\/sass\/details\.scss}line{font-family:\00003109}}
+article .main .right .right-item .right-top .right-top-img img {
+  width: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/myblog\/sass\/details\.scss}line{font-family:\00003113}}
+article .main .right .right-item .right-top p {
+  display: inline-block;
+  margin: 0;
+  margin-left: 10px;
+  font-weight: 700;
+  color: #666;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/myblog\/sass\/details\.scss}line{font-family:\00003121}}
+article .main .right .right-item .right-item-list {
+  padding-left: 0;
+  margin: 0;
+  border: 1px solid #E1E1E1;
+  background-color: #fff;
+  padding: 16px 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/myblog\/sass\/details\.scss}line{font-family:\00003127}}
+article .main .right .right-item .right-item-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  line-height: 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/myblog\/sass\/details\.scss}line{font-family:\00003132}}
+article .main .right .right-item .right-item-list li a {
+  text-decoration: none;
+  color: #333;
+  max-width: 70%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/myblog\/sass\/details\.scss}line{font-family:\00003139}}
+article .main .right .right-item .right-item-list li a:hover {
+  color: #09B1B9;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/myblog\/sass\/details\.scss}line{font-family:\00003142}}
+article .main .right .right-item .right-item-list li a img {
+  width: 20px;
+  vertical-align: middle;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/myblog\/sass\/details\.scss}line{font-family:\00003147}}
+article .main .right .right-item .right-item-list li p {
+  margin: 0;
+  font-size: 12px;
+  color: #666;
+}

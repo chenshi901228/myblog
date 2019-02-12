@@ -24,3 +24,24 @@ document.querySelector(".goTop").addEventListener("click", () => {
     document.documentElement.scrollTop = 0
     document.body.scrollTop = 0
 })
+
+axios.post("http://myblogapi.chenshiservice.cn/classifyTitle/findTitle")
+    .then(res => {
+        $(".headNav").html(`
+            ${
+            res.data.msg.map((item,index) => {
+                return `<li>
+                ${item.title == "网站首页" ?
+                        `<a class="actived" href="./index.html">${item.title}</a> ` :
+                        `<a data-item=${index} href="./classifyItem.html">${item.title}</a>`}              
+                </li>`
+            }).join("")
+            }
+        `)
+    })
+    .catch(error => { console.log(error) })
+
+$(".headNav").on("click", "a", function () {
+    let classTitle = $(this).data("item")
+    localStorage.setItem("classTitle", JSON.stringify(classTitle))
+})
